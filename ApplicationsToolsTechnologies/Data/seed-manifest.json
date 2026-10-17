@@ -1,0 +1,154 @@
+{
+  "purpose": "Raw workbook snapshots for the initial in-memory API. Rows preserve worksheet cell order, including the header row.",
+  "workbooks": [
+    {
+      "workbookName": "applications-tools",
+      "sourceFile": "APPLICATION&TOOLS_DATA.xlsx",
+      "jsonFile": "Data/SeedData/applications-tools.json",
+      "sheets": [
+        {
+          "sheetName": "Start Here",
+          "rowCountIncludingHeader": 16,
+          "columnCount": 2
+        },
+        {
+          "sheetName": "Change Summary",
+          "rowCountIncludingHeader": 13,
+          "columnCount": 4
+        },
+        {
+          "sheetName": "Data Dictionary",
+          "rowCountIncludingHeader": 133,
+          "columnCount": 13
+        },
+        {
+          "sheetName": "Relationship Register",
+          "rowCountIncludingHeader": 33,
+          "columnCount": 9
+        },
+        {
+          "sheetName": "ref_Stage",
+          "rowCountIncludingHeader": 21,
+          "columnCount": 8
+        },
+        {
+          "sheetName": "ref_Tag",
+          "rowCountIncludingHeader": 66,
+          "columnCount": 5
+        },
+        {
+          "sheetName": "core_Asset",
+          "rowCountIncludingHeader": 89,
+          "columnCount": 18
+        },
+        {
+          "sheetName": "core_AssetStage",
+          "rowCountIncludingHeader": 106,
+          "columnCount": 8
+        },
+        {
+          "sheetName": "core_AssetTag",
+          "rowCountIncludingHeader": 177,
+          "columnCount": 6
+        },
+        {
+          "sheetName": "core_Vendor",
+          "rowCountIncludingHeader": 8,
+          "columnCount": 9
+        },
+        {
+          "sheetName": "core_AssetVendor",
+          "rowCountIncludingHeader": 23,
+          "columnCount": 8
+        },
+        {
+          "sheetName": "core_OrganizationalUnit",
+          "rowCountIncludingHeader": 10,
+          "columnCount": 8
+        },
+        {
+          "sheetName": "core_AssetOwnership",
+          "rowCountIncludingHeader": 95,
+          "columnCount": 8
+        },
+        {
+          "sheetName": "core_AssetRelationship",
+          "rowCountIncludingHeader": 8,
+          "columnCount": 11
+        },
+        {
+          "sheetName": "core_Integration",
+          "rowCountIncludingHeader": 5,
+          "columnCount": 16
+        },
+        {
+          "sheetName": "audit_SourceDocument",
+          "rowCountIncludingHeader": 8,
+          "columnCount": 9
+        },
+        {
+          "sheetName": "audit_ChangeAudit",
+          "rowCountIncludingHeader": 1,
+          "columnCount": 7
+        },
+        {
+          "sheetName": "stg_AssetImport",
+          "rowCountIncludingHeader": 98,
+          "columnCount": 11
+        },
+        {
+          "sheetName": "Table Migration",
+          "rowCountIncludingHeader": 29,
+          "columnCount": 3
+        },
+        {
+          "sheetName": "Stage Mapping",
+          "rowCountIncludingHeader": 55,
+          "columnCount": 4
+        },
+        {
+          "sheetName": "Type Mapping",
+          "rowCountIncludingHeader": 90,
+          "columnCount": 5
+        }
+      ]
+    },
+    {
+      "workbookName": "technologies",
+      "sourceFile": "Consilio_Technologies_Module (1).xlsx",
+      "jsonFile": "Data/SeedData/technologies.json",
+      "sheets": [
+        {
+          "sheetName": "Dashboard",
+          "rowCountIncludingHeader": 70,
+          "columnCount": 10
+        },
+        {
+          "sheetName": "TechnologyCategories",
+          "rowCountIncludingHeader": 14,
+          "columnCount": 3
+        },
+        {
+          "sheetName": "Technologies",
+          "rowCountIncludingHeader": 214,
+          "columnCount": 3
+        },
+        {
+          "sheetName": "TechnologyCategoryLinks",
+          "rowCountIncludingHeader": 213,
+          "columnCount": 2
+        },
+        {
+          "sheetName": "AssetTechnology",
+          "rowCountIncludingHeader": 972,
+          "columnCount": 3
+        },
+        {
+          "sheetName": "Review",
+          "rowCountIncludingHeader": 972,
+          "columnCount": 7
+        }
+      ]
+    }
+  ]
+}
